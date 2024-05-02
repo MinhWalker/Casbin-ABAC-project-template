@@ -1,0 +1,9 @@
+p, admin, /vm/.*, .*, allow
+p, user, /vm/.*, GET, allow
+p, user, /vm/.*, POST, deny
+p, user, /vm/.*, PUT, deny
+p, user, /vm/.*, DELETE, deny
+p, auditor, /vm/.*, GET, allow
+p, auditor, /vm/.*, POST, deny
+p, auditor, /vm/.*, PUT, deny
+p, auditor, /vm/.*, DELETE, deny
